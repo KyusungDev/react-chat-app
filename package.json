@@ -1,0 +1,61 @@
+{
+  "name": "react-chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/jest": "^24.0.22",
+    "@types/lodash-es": "^4.17.3",
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/styled-components": "^4.4.0",
+    "antd": "^3.25.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "lodash-es": "^4.17.15",
+    "open-color": "^1.7.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^4.4.1",
+    "styled-reset": "^4.0.6",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node ./server/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyusungDev/react-chat-app.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyusungDev/react-chat-app/issues"
+  },
+  "homepage": "https://github.com/KyusungDev/react-chat-app#readme"
+}
